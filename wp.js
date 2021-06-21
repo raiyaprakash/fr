@@ -33,7 +33,7 @@ function myFunc() {
 var x = document.createElement("textarea");
 x.id = "Sendmessagedatabase", document.body.appendChild(x);
 var scopedStyle = document.createElement("style");
-scopedStyle.innerText = "#app, body, html {overflow: auto!important;height:auto!important}textarea#Sendmessagedatabase,textarea#customconsole{position: fixed;z-index: 99999;}._1gL0z{position:initial!important;}", document.body.appendChild(scopedStyle), null != localStorage.getItem("groupnamecontent") && ("y" == (prompt("Old Database Found, for Clear type: y", "")) ? (localStorage.removeItem("groupnamecontent"), alert("All Database Clear successfully.")) : setTimeout(function () {document.getElementById("Sendmessagedatabase").value += "\n" + localStorage.getItem("groupnamecontent") }, 0))};function updatedatabase() {
+scopedStyle.innerText = "#app, body, html {overflow: auto!important;height:auto!important}textarea#Sendmessagedatabase,textarea#customconsole{position: fixed;z-index: 99999;}", document.body.appendChild(scopedStyle), null != localStorage.getItem("groupnamecontent") && ("y" == (prompt("Old Database Found, for Clear type: y", "")) ? (localStorage.removeItem("groupnamecontent"), alert("All Database Clear successfully.")) : setTimeout(function () {document.getElementById("Sendmessagedatabase").value += "\n" + localStorage.getItem("groupnamecontent") }, 0))};function updatedatabase() {
     var e = document.getElementById("Sendmessagedatabase");
     localStorage.setItem("groupnamecontent", e.value)
 }
