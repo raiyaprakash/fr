@@ -1,6 +1,6 @@
 function runscript() {setTimeout(function () {
         document.querySelector('#pane-side span[data-testid="default-group"][data-icon="default-group"]') ? startTimer() : ( console.log("%c---------------------------------\nCongratulations Work Is Complete\n---------------------------------", "color:black; font-size:medium; font-weight:bold")/*, document.body.style.zoom = "100%", document.getElementById("app").style.height = "100%"*/)
-    }, 100)
+    }, delay)
 }
 
 function startTimer() {
